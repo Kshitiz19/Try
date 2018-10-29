@@ -14,8 +14,6 @@ class Graph
 
 public:
 	Graph(int V); // Constructor
-	int *vertices_available = new int[V+1];
-	void addEdge(int u, int v);
 	void printAllPaths(int s, int d);
 };
 
