@@ -1,12 +1,10 @@
 #include <bits/stdc++.h>
 #include <iostream>
-#include <time.h>
 #include <stdio.h>
-#include <algorithm>
 
 using namespace std;
-long counter = 0;
 
+// Performs different permutations of input string.. considering duplicates
 void permute(int n,int level,string &str,string &op,vector <char> &taken)
 {
 	for(int i=0; i<=n; ++i)
